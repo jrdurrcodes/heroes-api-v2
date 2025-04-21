@@ -8,6 +8,11 @@ const heroDao = {
 }
 
 
+const powerDao = {
+    ...daoCommon,
+    ...require('./api/powerDao')
+}
+
 module.exports  = {
     heroDao
 }
